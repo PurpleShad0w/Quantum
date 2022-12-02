@@ -1,0 +1,32 @@
+modLoader="javafml"
+loaderVersion="[41,)"
+
+license="All rights reserved"
+
+[[mods]]
+
+modId="quantum"
+
+version="${file.jarVersion}"
+displayName="Quantum"
+
+#logoFile="quantum.png"
+
+authors="PurpleShad0w"
+description='''
+A strangely quantum mod.
+'''
+
+[[dependencies.quantum]]
+    modId="forge"
+    mandatory=true
+    versionRange="[41,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.quantum]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.19,1.20)"
+    ordering="NONE"
+    side="BOTH"
