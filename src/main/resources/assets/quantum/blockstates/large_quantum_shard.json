@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "quantum:block/large_quantum_shard"
+    }
+  }
+}

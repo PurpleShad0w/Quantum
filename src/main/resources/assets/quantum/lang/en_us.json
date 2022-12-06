@@ -1,5 +1,6 @@
 {
   "itemGroup.quantum": "Quantum",
 
-  "item.quantum.quantum_piece": "Quantum Piece"
+  "block.quantum.large_quantum_shard": "Large Quantum Shard",
+  "item.quantum.quantum_shard": "Quantum Shard"
 }

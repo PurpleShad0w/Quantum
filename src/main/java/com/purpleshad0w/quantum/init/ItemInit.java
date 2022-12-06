@@ -11,7 +11,7 @@ import net.minecraftforge.registries.RegistryObject;
 public class ItemInit {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, Quantum.MOD_ID);
 
-    public static final RegistryObject<Item> QUANTUM_PIECE = ITEMS.register("quantum_piece",
+    public static final RegistryObject<Item> QUANTUM_SHARD = ITEMS.register("quantum_shard",
             () -> new Item(new Item.Properties().tab(ModCreativeTab.instance)));
 
 
@@ -24,7 +24,7 @@ public class ItemInit {
 
         @Override
         public ItemStack makeIcon() {
-            return new ItemStack(QUANTUM_PIECE.get());
+            return new ItemStack(QUANTUM_SHARD.get());
         }
     }
 }
